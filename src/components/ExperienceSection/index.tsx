@@ -31,6 +31,7 @@ const experienceArr = [
     highlights: [
       `● Utilized python libraries to outline anomalous securities by applying statistical approach (Z-score and Standard Deviation); received 84% approval from Compliance team`,
       `● Trained model to apply anomaly detection algorithm to assign anomaly scores and filter out anomalous securities with accuracy of 78% contributing to development of marketing mix models and delivering 10% boost on ROI`
+    ]
   },
 ];
 
