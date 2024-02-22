@@ -60,8 +60,8 @@ function HeaderSection() {
         <div className="lg:basis-2/5 md:basis-auto">
           <div className="md:w-[250px] md:h-[600px] sm:h-[75vw] sm:w-[40vw] h-[120vw] w-[50vw] relative m-auto">
             <Image
-              alt="Shiva Sai Charan's Avatar Image"
-              src={"/images/new-avatar.png"}
+              alt="Abhiram Avatar Image"
+              src={"/images/portfolio_dp_2.jpg"}
               fill
               loading={"lazy"}
               className="bg-backgroundColor-day dark:bg-backgroundColor-night"
