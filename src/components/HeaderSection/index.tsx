@@ -44,7 +44,7 @@ function HeaderSection() {
             <AppButton
               ariaLabel=""
               buttonType="primary"
-              onClick={() => console.log("hello")}
+              onClick={() => `#contact`}
               buttonText="Contact Me"
             />
             <AppButton
