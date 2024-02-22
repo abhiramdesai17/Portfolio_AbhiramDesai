@@ -14,7 +14,7 @@ import SASSLogo from "@images/icons/sass-logo.svg";
 import ReactLogo from "@images/icons/react-logo.svg";
 import NextJSLogo from "@images/icons/nextjs-logo.svg";
 import GatsbyLogo from "@images/icons/gatsby-logo.svg";
-import TensorflowLOGO from "@images/icons/tensorflow.svg"
+import TensorflowLOGO from "@images/icons/tensorflow-logo.svg"
 import ReduxLogo from "@images/icons/redux-logo.svg";
 import GraphQLLogo from "@images/icons/graphql-logo.svg";
 import ApolloClientLogo from "@images/icons/apollo-client-logo.svg";

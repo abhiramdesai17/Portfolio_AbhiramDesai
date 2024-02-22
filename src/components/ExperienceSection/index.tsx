@@ -14,11 +14,13 @@ const experienceArr = [
     companyLogoUrl: "/images/philips-logo.png",
     workingPeriod: "January 2023 - August 2023",
     highlights: [
-      `● Deployed YOLO model on unstructured dataset of ultrasound image data for detection of fetal presence for prediction of features like gestational age and number of gestations, contributing to 45% accuracy in object detection`,
-      `● Used data exploration and transformation techniques to transform 3TB+ of unprocessed ultrasound image data into structured NumPy arrays, enabling estimation of ultrasound features using predictive analytics reducing manual labor by 10% each month`,
-      `● Migrated 15TB+ data warehouse including stored procedures, triggers and ETLs to MD.ai (a medical AI cloud healthcare API) leveraging AWS S3 and Glue resulting in yearly cost savings of $25k`,
-      `● Automated a data pipeline using Python and Airflow to catalog ultrasound information of 100k+ patients for annotation extraction purposes, saving 15 hours of manual labor each week`,
-      `● Collaborated with 3 cross-functional teams to integrate data from 9 disparate data sources using Python, S3 and Redshift to create BI-ready data views for analysis with AWS Quicksight dashboard to derive clear, compelling actionable insights`
+      `Orchestrated the preparation and preprocessing of ultrasound image data for Project iMAMA, a Gates foundation-funded machine learning initiative focused on obstetric ultrasound diagnostics aimed at improving patient care`,
+      `Deployed YOLO model on unstructured dataset of ultrasound image data for detection of fetal presence for prediction of features like gestational age and number of gestations, contributing to 45% accuracy in object detection`,
+      `Used data exploration and transformation techniques to transform 3TB+ of unprocessed ultrasound image data into structured NumPy arrays, enabling estimation of ultrasound features using predictive analytics reducing manual labor by 10% each month`,
+      `Migrated 15TB+ data warehouse including stored procedures, triggers and ETLs to MD.ai (a medical AI cloud healthcare API) leveraging AWS S3 and Glue resulting in yearly cost savings of $25k`,
+      `Automated a data pipeline using Python and Airflow to catalog ultrasound information of 100k+ patients for annotation extraction purposes, saving 15 hours of manual labor each week`,
+      ` Partnered with doctors on clinical team to develop clinical review platform on MD.ai for annotating the migrated ultrasound images to be further extracted periodically (every 48 hours) by means of the Airflow DAG`,
+      `Collaborated with 3 cross-functional teams to integrate data from 9 disparate data sources using Python, S3 and Redshift to create BI-ready data views for analysis with AWS Quicksight dashboard to derive clear, compelling actionable insights`
     ],
   },
   {
@@ -29,8 +31,11 @@ const experienceArr = [
     companyLogoUrl: "/images/accenture-logo.png",
     workingPeriod: "June 2021 - December 2021",
     highlights: [
-      `● Utilized python libraries to outline anomalous securities by applying statistical approach (Z-score and Standard Deviation); received 84% approval from Compliance team`,
-      `● Trained model to apply anomaly detection algorithm to assign anomaly scores and filter out anomalous securities with accuracy of 78% contributing to development of marketing mix models and delivering 10% boost on ROI`
+      `Utilized python libraries to outline anomalous securities by applying statistical approach (Z-score and Standard Deviation); received 84% approval from Compliance team`,
+      `Trained model to apply anomaly detection algorithm to assign anomaly scores and filter out anomalous securities with accuracy of 78% contributing to development of marketing mix models and delivering 10% boost on ROI`,
+      `Performed scripting using python to fetch attachments/data reports from Outlook and upload it into Snowflake`,
+      `Developed interactive dashboards for deeper trend analysis and reported anomalies to Compliance team on weekly basis for inspection`,
+      `Programmed to schedule a Python job to upload data in Snowflake and send automated email alerts everyday`
     ]
   },
 ];
