@@ -8,58 +8,29 @@ import Image from "next/image";
 const experienceArr = [
   {
     id: "Job1",
-    role: "Research Assistant",
-    company: "Northeastern University",
-    companyUrl: "https://www.northeastern.edu/",
-    companyLogoUrl: "/images/northeastern-university-logo.png",
-    workingPeriod: "January 2023 - May 2023",
+    role: "Medical Imaging Data Engineer co-op",
+    company: "Philips North America",
+    companyUrl: "https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2021/20211110-philips-receives-grant-to-improve-quality-and-accessibility-of-maternal-care-in-low-and-middle-income-countries.html",
+    companyLogoUrl: "/images/philips-logo.png",
+    workingPeriod: "January 2023 - August 2023",
     highlights: [
-      `Assisted students at AiSunks club get their  hands on the open source projects. Organized meetings and monitor work progress.`,
-      `I have been editor for AiSunks medium magazine and  github pages.`
+      `● Deployed YOLO model on unstructured dataset of ultrasound image data for detection of fetal presence for prediction of features like gestational age and number of gestations, contributing to 45% accuracy in object detection`,
+      `● Used data exploration and transformation techniques to transform 3TB+ of unprocessed ultrasound image data into structured NumPy arrays, enabling estimation of ultrasound features using predictive analytics reducing manual labor by 10% each month`,
+      `● Migrated 15TB+ data warehouse including stored procedures, triggers and ETLs to MD.ai (a medical AI cloud healthcare API) leveraging AWS S3 and Glue resulting in yearly cost savings of $25k`,
+      `● Automated a data pipeline using Python and Airflow to catalog ultrasound information of 100k+ patients for annotation extraction purposes, saving 15 hours of manual labor each week`,
+      `● Collaborated with 3 cross-functional teams to integrate data from 9 disparate data sources using Python, S3 and Redshift to create BI-ready data views for analysis with AWS Quicksight dashboard to derive clear, compelling actionable insights`
     ],
   },
   {
     id: "Job2",
-    role: "Software Engineer (Golang)",
-    company: "ZopSmart",
-    companyUrl: "https://zopsmart.com/about",
-    companyLogoUrl: "/images/zopsmart.png",
-    workingPeriod: "May 2021 - June 2022",
+    role: "Application Development Analyst",
+    company: "Accenture",
+    companyUrl: "https://www.accenture.com/in-en",
+    companyLogoUrl: "/images/accenture-logo.png",
+    workingPeriod: "June 2021 - December 2021",
     highlights: [
-      `Developed customer personalization API in Golang resulting in improved targeted marketing. These services  scaled to handle a throughput of 9k requests/min.`,
-      `Optimized database queries resulting in user details API response time reduced by 5% leading to a 20% decrease in resource utilization.`,
-      `Migrated application deployments from Spinnaker to Harness with a quick adoption to a new business deal.`,
-      `Revamped the UI by adding new functionalities for an internal tool, have improved usability and bring down testing efforts by 30%, effectively resolving data inconsistencies across various services.`,
-      `Enhanced locking mechanism to handle bulk records helped migrating 100M records faster by 20%.`,
-      `Performed 30+ PR reviews, Handled 6+ Production releases and given a couple of knowledge transfers making new folks on par with the rest of the team.`
-    ],
-  },
-  {
-    id: "Job3",
-    role: "Software Engineering Intern",
-    company: "ZopSmart",
-    companyUrl: "https://zopsmart.com/about",
-    companyLogoUrl: "/images/zopsmart.png",
-    workingPeriod: "June 2021 - May 2021",
-    highlights: [
-      `Developed API's in Golang  by adapting to layered architecture and documented requirements in swagger.`,
-      `Integrated Redis-based Session management to online examination service. This lead to a 5% reduction in Session disruptions, thereby improving exam reliability and enhanced overall user experience.`,
-      `Orchestrated CI/CD pipelines to streamline the process of unit testing, code containerising, publishing build images to Registry  and deploying to GCP has reduced delivery time by 80% and ensuring consistent releases.`
-    ],
-  },
-  {
-    id: "Job4",
-    role: "SWE Intern",
-    company: "Jivass Technologies",
-    companyUrl: "https://jivass.com/about-us/",
-    companyLogoUrl: "/images/jivaas.png",
-    workingPeriod: "May 2020 - Jul 2020",
-    highlights: [
-      `Scrapped and curated 3000 train schedule data.`,
-      `Developed end to end application to visualize trains network on the graph using D3.js and simulate trains according to their schedule.`,
-      `This project is a proof of concept for algorithms that are designed/analyzed to minimize train delays.`,
-      `Deployed the application on E2E network.`
-    ],
+      `● Utilized python libraries to outline anomalous securities by applying statistical approach (Z-score and Standard Deviation); received 84% approval from Compliance team`,
+      `● Trained model to apply anomaly detection algorithm to assign anomaly scores and filter out anomalous securities with accuracy of 78% contributing to development of marketing mix models and delivering 10% boost on ROI`
   },
 ];
 
