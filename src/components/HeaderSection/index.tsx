@@ -22,21 +22,21 @@ function HeaderSection() {
               extraMedium
               semiBold
               defaultColor
-            >{`Hello, It's me`}</AppText>
+            >{`Hello there!`}</AppText>
             <AppText
               textTag="h1"
               extraLarge
               bold
               primary
-            >{`Shiva Sai Charan`}</AppText>
+            >{`Abhiram Desai`}</AppText>
             <div className="flex flex-row flex-wrap gap-2">
               <AppText textTag="p" extraMedium semiBold defaultColor>
                 {`I'm a`}
               </AppText>
-              <TypingText textArr={["Backend Developer", "DevOps Engineer", "Data Engineer" ]} />
+              <TypingText textArr={["Data Scientist", "Machine Learning Engineer", "Data Engineer", "Data Analyst" ]} />
             </div>
             <AppText textTag="p" medium defaultColor customClass="mt-4 mb-4">
-              {`A passionate Engineer curious about how systems work and having an experience building scalable services leveraging various tech and cloud. I learn through by doing cool projects.`}
+              {`I'm a math geek who likes to code a bit. I'm fascinated by the advancement of technology especially in the AI space and love to delve deeper into the field of Artificial Intelligence and Machine Learning!`}
             </AppText>
             <ContactLogos />
           </div>
@@ -51,16 +51,16 @@ function HeaderSection() {
               ariaLabel=""
               buttonType="secondary"
               onClick={() => {
-                window.open("https://drive.google.com/drive/folders/1c-NmFYCGVyPvyE9yAGTMj9dnYszlSJqk?usp=sharing", '_blank');
+                window.open("https://drive.google.com/file/d/19MHoWJRLO452cySE-6B5shyETrzOaJhZ/view?usp=sharing", '_blank');
               }}
-              buttonText="See My Resume"
+              buttonText="My Resume"
             />
           </div>
         </div>
         <div className="lg:basis-2/5 md:basis-auto">
-          <div className="md:w-[250px] md:h-[600px] sm:h-[75vw] sm:w-[40vw] h-[120vw] w-[50vw] relative m-auto">
+          <div className="md:w-[250px] md:h-[250px] sm:h-[75vw] sm:w-[40vw] h-[120vw] w-[50vw] relative m-auto">
             <Image
-              alt="Abhiram Avatar Image"
+              alt="Abhiram Desai"
               src={"/images/portfolio_dp_2.jpg"}
               fill
               loading={"lazy"}

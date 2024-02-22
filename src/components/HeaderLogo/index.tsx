@@ -12,7 +12,7 @@ function HeaderLogo() {
       </AppText>
       <a href="#">
         <AppText textTag="span" defaultColor customClass="sm:text-4xl text-3xl">
-          {"Shiva Sai Charan"}
+          {"Abhiram Desai"}
         </AppText>
       </a>
       <AppText textTag="span" secondary customClass="sm:text-4xl text-3xl">
