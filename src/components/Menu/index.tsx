@@ -2,7 +2,7 @@
 
 import React, { useRef, useState, useEffect } from "react";
 import {
-  CERTIFICATIONS,
+  //CERTIFICATIONS,
   CONTACT,
   EXPERIENCE,
   EDUCATION,
@@ -18,7 +18,7 @@ const sectionsLinks = [
   EXPERIENCE,
   PROJECTS,
   EDUCATION,
-  CERTIFICATIONS,
+  //CERTIFICATIONS,
   CONTACT,
 ];
 
