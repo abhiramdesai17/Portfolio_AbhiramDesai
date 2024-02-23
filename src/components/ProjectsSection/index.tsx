@@ -117,7 +117,7 @@ const mainProjects = [
     Plotted 7 count plots to observe behaviour of stroke based on various categorical features like gender, hypertension, marital status, heart disease, residence, smoking status and employment.
     Modelled kNN, SVM and Random Forest models to improve overall efficiency by 9.5% with kNN model giving highest accuracy of 99.7%.`,
     techStack: ["Pandas", "Numpy", "Seaborn", "Matplotlib", "Scikitlearn"],
-    imgURL: "/images/strokeprediction.png",
+    imgURL: "/images/strokeprediction_2.png",
     githubLink: `https://github.com/abhiramdesai17/Stroke-Prediction`,
     tags: [TAGS.DS]
   }
