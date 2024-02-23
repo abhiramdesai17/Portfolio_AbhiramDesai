@@ -19,12 +19,12 @@ function Footer() {
             Reach Out to me!
           </AppText>
           <AppText textTag="h2" medium secondary customClass="mt-2">
-            DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
+            SAY HI ON MY INBOX!
           </AppText>
           <div className="flex items-center lg:justify-start justify-center gap-1 my-6">
             <LocationIcon className="h-6 w-6 fill-primaryColor-light" />
             <AppText textTag="p" default defaultColor>
-              Boston, USA
+              United States of America
             </AppText>
           </div>
           <AppText textTag="p" medium defaultColor customClass="my-6">
