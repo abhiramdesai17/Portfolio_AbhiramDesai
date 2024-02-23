@@ -8,8 +8,8 @@ const montserrat = Rubik({
 });
 
 export const metadata = {
-  title: "Shiva Sai Charan Portfolio.",
-  description: "All about shiva sai charan software development career.",
+  title: " Abhiram Desai Portfolio",
+  description: "All about Abhiram Desai Data Scientist.",
 };
 
 export default function RootLayout({
@@ -20,8 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <title>Shiva Sai Charan</title>
-        <meta name="description" content="Shiva Sai Charan's Portfolio" />
+        <title>Abhiram Desai</title>
+        <meta name="description" content="Abhiram Desai's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href="/app-favicon.ico" /> */}
       </head>

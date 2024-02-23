@@ -60,7 +60,7 @@ function Footer() {
         semiBold
         customClass="mt-12 text-center"
       >
-        © Copyright 2023 - Shiva Sai Charan
+        © Copyright 2024 - Abhiram Desai
       </AppText>
     </footer>
   );
