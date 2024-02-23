@@ -235,7 +235,7 @@ function ProjectsSection() {
                   {project.webLink && <a href={project.webLink} target="_blank">
                     <GlobeIcon className="h-9 w-9" />
                   </a>}
-                  {project.demoLink && <a href={project.demoLink} target="_blank"><PlayIcon className="h-9 w-9"/></a>}
+                  {/*project.demoLink && <a href={project.demoLink} target="_blank"><PlayIcon className="h-9 w-9"/></a>*/}
                 </div>
                   </div>
                 <AppText textTag="p" default secondary>
