@@ -6,24 +6,22 @@ import AppText from "../AppText";
 
 const educations = [
   {
-    id: "MSC",
-    date: "Sep 2022 - May 2024",
-    course: "Master of Science in Software Engineering Systems",
+    id: "MS",
+    date: "January 2022 - May 2024",
+    course: "Master of Science in Data Analytics Engineering",
     name: "Northeastern University",
     logoURL: "/images/northeastern-university-logo.png",
     url: "https://www.northeastern.edu/",
-    place: "Boston, USA",
-    grade: "3.762 GPA",
+    place: "Boston, USA"
   },
   {
     id: "BTech",
     date: "Aug 2017 - May 2021",
-    course: "Bachelor of Technology in Computer Science",
-    name: "Indian Institute of Information Technology Sri City",
-    logoURL: "/images/iiit-logo.png",
-    url: "https://www.iiits.ac.in/",
-    place: "Andhra Pradesh, India",
-    grade: "7.1 CGPA",
+    course: "Bachelor of Technology in Electrical and Electronics Engineering",
+    name: "PES University",
+    logoURL: "/images/pesu.png",
+    url: "https://pes.edu/",
+    place: "Bengaluru, KA, India",
   }
 ];
 
