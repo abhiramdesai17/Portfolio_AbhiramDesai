@@ -58,7 +58,7 @@ function HeaderSection() {
           </div>
         </div>
         <div className="lg:basis-2/5 md:basis-auto">
-          <div className="md:w-[250px] md:h-[250px] sm:h-[75vw] sm:w-[40vw] h-[120vw] w-[50vw] relative m-auto">
+          <div className="md:w-[300px] md:h-[350px] sm:h-[75vw] sm:w-[40vw] h-[120vw] w-[50vw] relative m-auto">
             <Image
               alt="Abhiram Desai"
               src={"/images/portfolio_dp_2.jpg"}

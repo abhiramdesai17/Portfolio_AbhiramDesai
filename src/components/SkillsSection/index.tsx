@@ -458,14 +458,14 @@ function SkillsSection() {
       <div className="flex lg:flex-row max-lg:flex-col-reverse flex-col sm:gap-12 gap-9 section-content-padding">
         <div className="lg:basis-2/4 basis-full flex flex-col sm:gap-12 gap-9">
           <SkillsSubSection headerTxt={"Programming Languages"} skills={programmingSkills} />
-          <SkillsSubSection headerTxt={"CI/CD and Cloud"} skills={cloudSkills} />
+          <SkillsSubSection headerTxt={"Databases"} skills={databaseSkills} />
           <SkillsSubSection headerTxt={"Data Engineering"} skills={dataEngineeringSkills} />
         </div>
 
         <div className="lg:basis-2/4 basis-full flex flex-col sm:gap-12 gap-9">
-          <SkillsSubSection headerTxt={"Databases"} skills={databaseSkills} />
-          <SkillsSubSection headerTxt={"Visualization"} skills={visualizationSkills} />
           <SkillsSubSection headerTxt={"Machine Learning"} skills={machineLearningSkills} />
+          <SkillsSubSection headerTxt={"CI/CD and Cloud"} skills={cloudSkills} />
+          <SkillsSubSection headerTxt={"Visualization"} skills={visualizationSkills} />
         </div>
       </div>
     </AppSection>
