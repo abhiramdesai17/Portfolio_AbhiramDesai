@@ -9,7 +9,7 @@ const montserrat = Rubik({
 
 export const metadata = {
   title: " Abhiram Desai Portfolio",
-  description: "All about Abhiram Desai Data Scientist.",
+  description: "Abhiram's Portfolio",
 };
 
 export default function RootLayout({
