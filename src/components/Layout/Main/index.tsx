@@ -4,7 +4,7 @@ import React from "react";
 import HeaderSection from "@/components/HeaderSection";
 import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
-import CertificationsSection from "@/components/CertificationsSection";
+//import CertificationsSection from "@/components/CertificationsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 
@@ -16,7 +16,6 @@ function Main() {
       <ExperienceSection />
       <ProjectsSection/>
       <EducationSection />
-      <CertificationsSection />
     </main>
   );
 }
