@@ -12,7 +12,7 @@ const educations = [
     name: "Northeastern University",
     logoURL: "/images/northeastern-university-logo.png",
     url: "https://www.northeastern.edu/",
-    place: "Boston, USA",
+    place: "United States of America"
     grade: 3.79
   },
   {
@@ -22,7 +22,7 @@ const educations = [
     name: "PES University",
     logoURL: "/images/pesu.png",
     url: "https://pes.edu/",
-    place: "Bengaluru, KA, India",
+    place: "India",
     grade: 7.9
   }
 ];
