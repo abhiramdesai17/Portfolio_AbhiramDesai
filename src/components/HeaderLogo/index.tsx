@@ -1,5 +1,6 @@
 import React from "react";
-import { Allura } from "next/font/google";
+//import { Allura } from "next/font/google";
+import { Arial } from "next/font/google";
 import AppText from "../AppText";
 import classNames from "classnames";
 const sacramento = Arial({ weight: "400", subsets: ["latin"] });
