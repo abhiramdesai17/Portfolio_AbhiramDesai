@@ -12,7 +12,7 @@ const educations = [
     name: "Northeastern University",
     logoURL: "/images/northeastern-university-logo.png",
     url: "https://www.northeastern.edu/",
-    place: "United States of America"
+    place: "United States of America",
     grade: 3.79
   },
   {
