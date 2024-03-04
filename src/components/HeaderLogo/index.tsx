@@ -2,7 +2,8 @@ import React from "react";
 import { Allura } from "next/font/google";
 import AppText from "../AppText";
 import classNames from "classnames";
-const sacramento = Allura({ weight: "400", subsets: ["latin"] });
+const sacramento = Calibri({ weight: "400", subsets: ["latin"] });
+//const sacramento = Allura({ weight: "400", subsets: ["latin"] });
 
 function HeaderLogo() {
   return (
